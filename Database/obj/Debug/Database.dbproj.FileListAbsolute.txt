@@ -1,0 +1,8 @@
+E:\MyWork\mgzzx\mgzzx\Database\sql\debug\DB_NMGSKL_Script.PreDeployment.sql
+E:\MyWork\mgzzx\mgzzx\Database\sql\debug\DB_NMGSKL_Script.PostDeployment.sql
+E:\MyWork\mgzzx\mgzzx\Database\sql\debug\DB_NMGSKL_Database.sqlsettings
+E:\MyWork\mgzzx\mgzzx\Database\sql\debug\DB_NMGSKL_Database.sqldeployment
+E:\MyWork\mgzzx\mgzzx\Database\sql\debug\DB_NMGSKL_Database.sqlcmdvars
+E:\MyWork\mgzzx\mgzzx\Database\sql\debug\Database.deploymanifest
+E:\MyWork\mgzzx\mgzzx\Database\sql\debug\Database.dbschema
+E:\MyWork\mgzzx\mgzzx\Database\obj\Debug\Database.dbschema

@@ -1,0 +1,13 @@
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\bin\Debug\DataLibraryBase.dll
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\bin\Debug\DataLibraryBase.pdb
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\bin\Debug\Common.dll
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\bin\Debug\itextsharp.dll
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\bin\Debug\Telerik.Web.UI.dll
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\bin\Debug\Newtonsoft.Json.dll
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\bin\Debug\Common.pdb
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\obj\Debug\DataLibraryBase.csprojResolveAssemblyReference.cache
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\obj\Debug\DataLibraryBase.dll
+E:\MyWork\mgzzx\mgzzx\DataLibraryBase\obj\Debug\DataLibraryBase.pdb

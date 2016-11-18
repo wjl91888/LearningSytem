@@ -1,0 +1,4 @@
+E:\MyWork\mgzzx\mgzzx\Controls\CustomWebControls\bin\Debug\CustomWebControls.dll
+E:\MyWork\mgzzx\mgzzx\Controls\CustomWebControls\bin\Debug\CustomWebControls.pdb
+E:\MyWork\mgzzx\mgzzx\Controls\CustomWebControls\obj\Debug\CustomWebControls.dll
+E:\MyWork\mgzzx\mgzzx\Controls\CustomWebControls\obj\Debug\CustomWebControls.pdb

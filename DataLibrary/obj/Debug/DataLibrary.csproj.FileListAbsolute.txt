@@ -1,0 +1,15 @@
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\DataLibrary.dll
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\DataLibrary.pdb
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\Common.dll
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\DataLibraryBase.dll
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\Newtonsoft.Json.dll
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\Telerik.Web.UI.dll
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\itextsharp.dll
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\DataLibraryBase.pdb
+E:\MyWork\mgzzx\mgzzx\DataLibrary\bin\Debug\Common.pdb
+E:\MyWork\mgzzx\mgzzx\DataLibrary\obj\Debug\DataLibrary.csprojResolveAssemblyReference.cache
+E:\MyWork\mgzzx\mgzzx\DataLibrary\obj\Debug\DataLibrary.dll
+E:\MyWork\mgzzx\mgzzx\DataLibrary\obj\Debug\DataLibrary.pdb
