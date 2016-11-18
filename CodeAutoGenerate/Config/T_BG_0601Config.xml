@@ -2774,7 +2774,7 @@
     <NoSearch>false</NoSearch>
     <Condition>false</Condition>
   </CustomPermissionFieldConfig>
-  <DataBaseName>DB_MGZZX</DataBaseName>
+  <DataBaseName>DB_LearningSystem</DataBaseName>
   <TableName>T_BG_0601</TableName>
   <TableOnwer>dbo</TableOnwer>
   <NameSpace>
@@ -2784,7 +2784,7 @@
   <TemplateFilePath>Template</TemplateFilePath>
   <ProjectPath>..\..\..</ProjectPath>
   <CodeFilePath>CodeGenerated</CodeFilePath>
-  <ConnectionString>Data Source=127.0.0.1;Initial Catalog=DB_MGZZX;User ID=sa;Password=95828wjl(!***;User Instance=False</ConnectionString>
+  <ConnectionString>Data Source=127.0.0.1;Initial Catalog=DB_LearningSystem;User ID=sa;Password=95828wjl(!***;User Instance=False</ConnectionString>
   <AutoGenerateField>FBH</AutoGenerateField>
   <AutoGenerateNumberLength>8</AutoGenerateNumberLength>
   <AutoGeneratePrefix>"XX"</AutoGeneratePrefix>

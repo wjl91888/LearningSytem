@@ -13,7 +13,7 @@
     <ManifestCertificateThumbprint>953FB5864ED415B8D7AFA598DB635D01E87A70FE</ManifestCertificateThumbprint>
     <ManifestKeyFile>DataModelApplication_TemporaryKey.pfx</ManifestKeyFile>
     <GenerateManifests>true</GenerateManifests>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <FileUpgradeFlags>
     </FileUpgradeFlags>

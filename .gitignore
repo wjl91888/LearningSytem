@@ -6,3 +6,6 @@ DataLibrary/obj/
 DataLibraryBase/bin/
 DataLibraryBase/obj/
 wwwroot/Bin/
+DataModelApplication/obj/
+CodeAutoGenerate/app.publish/
+DataModelApplication/obj/
