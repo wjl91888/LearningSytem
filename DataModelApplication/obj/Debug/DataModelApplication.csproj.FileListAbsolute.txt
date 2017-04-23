@@ -59,7 +59,6 @@ E:\MyWork\mgzzx\mgzzx\CodeAutoGenerate\Template\WebUIAddForApp.aspx.xsl
 E:\MyWork\mgzzx\LearningSystem\CodeAutoGenerate\DataModelApplication.exe.config
 E:\MyWork\mgzzx\LearningSystem\DataModelApplication\obj\Debug\DataModelApplication.exe
 E:\MyWork\mgzzx\LearningSystem\DataModelApplication\obj\Debug\DataModelApplication.pdb
-E:\MyWork\mgzzx\LearningSystem\DataModelApplication\obj\Debug\DataModelApplication.csprojResolveAssemblyReference.cache
 E:\MyWork\mgzzx\LearningSystem\DataModelApplication\obj\Debug\DataModelApplication.CustomDisplayFieldConfigForm.resources
 E:\MyWork\mgzzx\LearningSystem\DataModelApplication\obj\Debug\DataModelApplication.CustomOperateConfigForm.resources
 E:\MyWork\mgzzx\LearningSystem\DataModelApplication\obj\Debug\DataModelApplication.CustomPermissionConfigForm.resources
@@ -114,3 +113,4 @@ E:\MyWork\mgzzx\LearningSystem\CodeAutoGenerate\DataModelApplication.exe
 E:\MyWork\mgzzx\LearningSystem\CodeAutoGenerate\DataModelApplication.pdb
 E:\MyWork\mgzzx\LearningSystem\DataModelApplication\obj\Debug\DataModelApplication.exe.manifest
 E:\MyWork\mgzzx\LearningSystem\DataModelApplication\obj\Debug\DataModelApplication.application
+E:\MyWork\mgzzx\LearningSystem\DataModelApplication\obj\Debug\DataModelApplication.csprojResolveAssemblyReference.cache

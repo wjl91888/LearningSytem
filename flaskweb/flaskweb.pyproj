@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>bdf76604-afc5-4957-8ac8-8b592edb06ff</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <OutputPath>.</OutputPath>
+    <StaticUriPattern>^/static/.*</StaticUriPattern>
+    <StaticUriRewrite>^/$(MSBuildProjectName)/static/.*</StaticUriRewrite>
+    <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
+    <Name>flaskweb</Name>
+    <RootNamespace>flaskweb</RootNamespace>
+    <InterpreterId>{63e38e35-e673-4418-b4ab-6bec134ccba8}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app\admin\errors.py" />
+    <Compile Include="app\admin\forms.py" />
+    <Compile Include="app\admin\views.py" />
+    <Compile Include="app\admin\__init__.py" />
+    <Compile Include="app\errors.py" />
+    <Compile Include="app\init_seed.py" />
+    <Compile Include="app\main\errors.py" />
+    <Compile Include="app\main\views.py" />
+    <Compile Include="app\main\__init__.py" />
+    <Compile Include="app\models\Article.py" />
+    <Compile Include="app\models\BankAccount.py" />
+    <Compile Include="app\models\BankBill.py" />
+    <Compile Include="app\models\Clerk.py" />
+    <Compile Include="app\models\CompanyBill.py" />
+    <Compile Include="app\models\EqBill.py" />
+    <Compile Include="app\models\Equipment.py" />
+    <Compile Include="app\models\Transaction.py" />
+    <Compile Include="app\models\User.py" />
+    <Compile Include="app\models\__init__.py" />
+    <Compile Include="app\test\db_test.py" />
+    <Compile Include="app\test\__init__.py" />
+    <Compile Include="app\utils\db_utils.py" />
+    <Compile Include="app\utils\deco_utils.py" />
+    <Compile Include="app\utils\__init__.py" />
+    <Compile Include="app\views.py" />
+    <Compile Include="app\__init__.py" />
+    <Compile Include="config.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="runserver.py" />
+    <Compile Include="flaskweb\__init__.py" />
+    <Compile Include="flaskweb\views.py" />
+    <Compile Include="_dev.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\admin\" />
+    <Folder Include="app\main\" />
+    <Folder Include="app\models\" />
+    <Folder Include="app\templates\" />
+    <Folder Include="app\templates\admin\" />
+    <Folder Include="app\templates\main\" />
+    <Folder Include="app\test\" />
+    <Folder Include="app\utils\" />
+    <Folder Include="flaskweb\" />
+    <Folder Include="flaskweb\static\" />
+    <Folder Include="flaskweb\static\content\" />
+    <Folder Include="flaskweb\static\fonts\" />
+    <Folder Include="flaskweb\static\scripts\" />
+    <Folder Include="flaskweb\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\data.db" />
+    <Content Include="app\templates\admin\article.html" />
+    <Content Include="app\templates\admin\category.html" />
+    <Content Include="app\templates\admin\check.html" />
+    <Content Include="app\templates\admin\index.html" />
+    <Content Include="app\templates\admin\login.html" />
+    <Content Include="app\templates\admin\pay.html" />
+    <Content Include="app\templates\admin\refund.html" />
+    <Content Include="app\templates\admin\register.html" />
+    <Content Include="app\templates\base.html" />
+    <Content Include="app\templates\main\index.html" />
+    <Content Include="app\templates\main\read.html" />
+    <Content Include="report.pdf" />
+    <Content Include="requirements.txt" />
+    <Content Include="flaskweb\static\content\bootstrap.css" />
+    <Content Include="flaskweb\static\content\bootstrap.min.css" />
+    <Content Include="flaskweb\static\content\site.css" />
+    <Content Include="flaskweb\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="flaskweb\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="flaskweb\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="flaskweb\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="flaskweb\static\scripts\bootstrap.js" />
+    <Content Include="flaskweb\static\scripts\bootstrap.min.js" />
+    <Content Include="flaskweb\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="flaskweb\static\scripts\jquery-1.10.2.js" />
+    <Content Include="flaskweb\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="flaskweb\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="flaskweb\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="flaskweb\static\scripts\jquery.validate.js" />
+    <Content Include="flaskweb\static\scripts\jquery.validate.min.js" />
+    <Content Include="flaskweb\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="flaskweb\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="flaskweb\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="flaskweb\static\scripts\respond.js" />
+    <Content Include="flaskweb\static\scripts\respond.min.js" />
+    <Content Include="flaskweb\static\scripts\_references.js" />
+    <Content Include="flaskweb\templates\about.html" />
+    <Content Include="flaskweb\templates\contact.html" />
+    <Content Include="flaskweb\templates\index.html" />
+    <Content Include="flaskweb\templates\layout.html" />
+    <Content Include="sqlitestudio-3.1.1.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{63e38e35-e673-4418-b4ab-6bec134ccba8}\2.7" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

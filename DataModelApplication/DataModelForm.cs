@@ -1264,6 +1264,7 @@ namespace DataModelApplication
                 case "nvarchar":
                     strReturn = "String";
                     break;
+                case "date":
                 case "datetime":
                 case "smalldatetime":
                     strReturn = "DateTime";
@@ -1351,6 +1352,9 @@ namespace DataModelApplication
                     break;
                 case "nvarchar":
                     strReturn = "NVarChar";
+                    break;
+                case "date":
+                    strReturn = "Date";
                     break;
                 case "datetime":
                     strReturn = "DateTime";

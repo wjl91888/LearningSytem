@@ -16,7 +16,28 @@ public partial class UploadFilesControl : System.Web.UI.UserControl
 
     public string Width { get; set; }
     public Color BackColor { get; set; }
-    public bool ReadOnly { get; set; }
+    public bool ReadOnly
+    {
+        set
+        {
+            RadUploadFilesControl.Enabled = value;
+        }
+        get
+        {
+            return RadUploadFilesControl.Enabled;
+        }
+    }
+    public bool Enabled
+    {
+        set
+        {
+            RadUploadFilesControl.Enabled = value;
+        }
+        get
+        {
+            return RadUploadFilesControl.Enabled;
+        }
+    }
     private List<string> Files { get; set; }
     public string Text
     {

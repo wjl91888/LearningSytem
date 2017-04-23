@@ -179,6 +179,15 @@ namespace DataModelApplication
                         {
                             CustomPermissionFieldsConfigForm.CustomPermissionFieldsConfig = TempCustomPermissionFieldConfig.Tables[strCustomPermissionName].Copy();
                             CustomPermissionFieldsConfigForm.CustomPermissionFieldsConfig.TableName = strCustomPermissionName;
+                            foreach (DataRow row in CustomPermissionFieldsConfigForm.CustomPermissionFieldsConfig.Rows)
+                            {
+                                row["CustomPermissionTemplate"] = strCustomPermissionTemplate;
+                                row["CustomPermissionType"] = strCustomPermissionType;
+                                row["CustomPermissionID"] = strCustomPermissionID;
+                                row["CustomPermissionName"] = strCustomPermissionName;
+                                row["CustomPermissionRemark"] = strCustomPermissionRemark;
+                            }
+
                         }
                         // 打开自定义操作配置窗口
                         CustomPermissionFieldsConfigForm.ShowDialog(this);

@@ -7,6 +7,7 @@
 cd %cd%\<xsl:value-of select="/NewDataSet/TableName"/>
 @ECHO 开始部署<xsl:value-of select="/NewDataSet/TableName"/>
 @ECHO 开始复制<xsl:value-of select="/NewDataSet/TableName"/>页面文件
+copy <xsl:value-of select="/NewDataSet/TableName"/>Contants.cs <xsl:value-of select="/NewDataSet/ProjectPath"/>\wwwroot\App_Code\
 copy <xsl:value-of select="/NewDataSet/TableName"/>WebUIAdd.aspx <xsl:value-of select="/NewDataSet/ProjectPath"/>\wwwroot\Administrator\A_BM\
 copy <xsl:value-of select="/NewDataSet/TableName"/>WebUIAdd.aspx.cs <xsl:value-of select="/NewDataSet/ProjectPath"/>\wwwroot\Administrator\A_BM\
 copy <xsl:value-of select="/NewDataSet/TableName"/>WebUIDetail.aspx <xsl:value-of select="/NewDataSet/ProjectPath"/>\wwwroot\Administrator\A_BM\

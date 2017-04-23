@@ -1146,9 +1146,9 @@ public partial class <xsl:value-of select="/NewDataSet/TableName"/>WebUIAdd : RI
                 }</xsl:if>
             <xsl:if test="View = 'true'">
                 if(CustomPermission == <xsl:value-of select="CustomPermissionName"/>_PURVIEW_ID)
-                {
-                <xsl:value-of select="FieldName"/>.Enabled = false;
-                }</xsl:if>
+              {
+              <xsl:value-of select="FieldName"/>.Enabled = false;
+              }</xsl:if>
         </xsl:if>
         <xsl:if test="CustomPermissionType = 'AddPage'">
             <xsl:if test="Hidden = 'true'">
@@ -1158,9 +1158,9 @@ public partial class <xsl:value-of select="/NewDataSet/TableName"/>WebUIAdd : RI
                 }</xsl:if>
             <xsl:if test="View = 'true'">
                 if(CustomPermission == <xsl:value-of select="CustomPermissionName"/>_PURVIEW_ID)
-                {
-                <xsl:value-of select="FieldName"/>.Enabled = false;
-                }</xsl:if>
+              {
+              <xsl:value-of select="FieldName"/>.Enabled = false;
+              }</xsl:if>
         </xsl:if>
     </xsl:for-each>
         }

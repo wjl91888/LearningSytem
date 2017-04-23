@@ -75,6 +75,7 @@ namespace DataModelApplication
                 foreach (DataGridViewRow dgvrTemp in dgvCustomOperateConfig.Rows)
                 {
                     DataRow drTemp = CustomOperateConfig.NewRow();
+                    bool vaildRow = false;
                     foreach (DataGridViewCell dgvcTemp in dgvrTemp.Cells)
                     {
                         if (dgvcTemp.Value == null)
@@ -83,10 +84,14 @@ namespace DataModelApplication
                         }
                         else
                         {
+                            vaildRow = true;
                             drTemp[dgvcTemp.ColumnIndex] = dgvcTemp.Value;
                         }
                     }
-                    CustomOperateConfig.Rows.Add(drTemp);
+                    if (vaildRow)
+                    {
+                        CustomOperateConfig.Rows.Add(drTemp);
+                    }
                 }
                 this.Close();
 
@@ -105,6 +110,8 @@ namespace DataModelApplication
                 dgvCustomOperateConfig.AutoGenerateColumns = false;
                 dgvCustomOperateConfig.DataSource = dsCustomOperateConfig;
                 dgvCustomOperateConfig.Columns["CustomOperateName"].DataPropertyName = "CustomOperateName";
+                dgvCustomOperateConfig.Columns["CurrentPermission"].DataPropertyName = "CurrentPermission";
+                dgvCustomOperateConfig.Columns["RelatedPermission"].DataPropertyName = "RelatedPermission";
                 dgvCustomOperateConfig.Columns["CustomOperateFile"].DataPropertyName = "CustomOperateFile";
                 dgvCustomOperateConfig.Columns["CustomOperateParamOne"].DataPropertyName = "CustomOperateParamOne";
                 dgvCustomOperateConfig.Columns["CustomOperateParamTwo"].DataPropertyName = "CustomOperateParamTwo";

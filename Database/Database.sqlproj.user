@@ -9,5 +9,7 @@
     <GenerateDropsIfNotInProject>False</GenerateDropsIfNotInProject>
     <PerformDatabaseBackup>True</PerformDatabaseBackup>
     <SingleUserMode>False</SingleUserMode>
+    <StartupScript>(Blank)</StartupScript>
+    <StartAction>StartNone</StartAction>
   </PropertyGroup>
 </Project>

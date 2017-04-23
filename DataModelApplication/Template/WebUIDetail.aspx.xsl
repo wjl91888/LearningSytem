@@ -42,6 +42,9 @@
 <![CDATA[                    左边距<asp:TextBox ID="txtMarginLeft" runat="server" Width="20" Text="50" Visible="false"></asp:TextBox>]]>
 <![CDATA[                    <br />]]>
 <![CDATA[                        </div>]]>
+<xsl:for-each select="/NewDataSet/CustomOperateConfig">
+<![CDATA[                    <input type="button" id ="btn]]><xsl:value-of select="RelatedPermission"/><![CDATA[" runat ="server" value="]]><xsl:value-of select="CustomOperateName"/><![CDATA[" class="button" />]]>
+</xsl:for-each>
 <![CDATA[                    <input type="button" id ="btnEditItem" runat ="server" value="修改" class="button" />]]>
 <xsl:if test="/NewDataSet/CopyItem = 'true'">
 <![CDATA[                    <input type="button" id ="btnCopyItem" runat ="server" value="复制" class="button" />]]>

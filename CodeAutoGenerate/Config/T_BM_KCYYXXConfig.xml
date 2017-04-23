@@ -1,0 +1,1825 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="RecordInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="OrderID" type="xs:short" minOccurs="0" />
+                <xs:element name="FieldName" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldRemark" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:anyType" minOccurs="0" />
+                <xs:element name="DBType" type="xs:string" minOccurs="0" />
+                <xs:element name="DataSize" type="xs:int" minOccurs="0" />
+                <xs:element name="IsUse" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsString" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsPrimaryKey" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsNull" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsAdd" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsModify" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsNonModifiable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsList" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsDefaultList" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsListSort" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsAppList" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AppListColumn" type="xs:string" minOccurs="0" />
+                <xs:element name="IsAppFilter" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AppFilterRemarkName" type="xs:string" minOccurs="0" />
+                <xs:element name="IsAppDetail" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AppDetailCaptionColumn" type="xs:string" minOccurs="0" />
+                <xs:element name="AppDetailContentColumn" type="xs:string" minOccurs="0" />
+                <xs:element name="AppAddCaptionColumn" type="xs:string" minOccurs="0" />
+                <xs:element name="AppAddContentColumn" type="xs:string" minOccurs="0" />
+                <xs:element name="IsSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsAdvanceSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="PrefixMatch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsApproximateSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsRangeSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsMoreItemSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsSubItemSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsBatchSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsShowDetail" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsPDFShow" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DisplayFormatString" type="xs:string" minOccurs="0" />
+                <xs:element name="Mask" type="xs:string" minOccurs="0" />
+                <xs:element name="DisplayMask" type="xs:string" minOccurs="0" />
+                <xs:element name="FormatString" type="xs:string" minOccurs="0" />
+                <xs:element name="IsPDFNextSeparateLine" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsStatisticalData" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsStatisticalCondition" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsSum" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsRelatedOperateParam" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsSuggestItem" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ControlType" type="xs:string" minOccurs="0" />
+                <xs:element name="IsUseTab" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TabIndex" type="xs:string" minOccurs="0" />
+                <xs:element name="TabName" type="xs:string" minOccurs="0" />
+                <xs:element name="GridHeadText" type="xs:string" minOccurs="0" />
+                <xs:element name="GridColumnName" type="xs:string" minOccurs="0" />
+                <xs:element name="GridColumnWidth" type="xs:string" minOccurs="0" />
+                <xs:element name="IsDataBind" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsMoreItemDisplay" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DataBindTableOwnerName" type="xs:string" minOccurs="0" />
+                <xs:element name="DataBindTableName" type="xs:string" minOccurs="0" />
+                <xs:element name="DataBindTextField" type="xs:string" minOccurs="0" />
+                <xs:element name="DataBindValueField" type="xs:string" minOccurs="0" />
+                <xs:element name="IsDataDict" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DataDictID" type="xs:string" minOccurs="0" />
+                <xs:element name="IsTreeStyle" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TreeParentNode" type="xs:string" minOccurs="0" />
+                <xs:element name="TreeParentNodeValue" type="xs:string" minOccurs="0" />
+                <xs:element name="DataBindCondition" type="xs:string" minOccurs="0" />
+                <xs:element name="DataBindConditionValue" type="xs:string" minOccurs="0" />
+                <xs:element name="MutilInsertField" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MutilInsertCondition" type="xs:boolean" minOccurs="0" />
+                <xs:element name="MutilInsertFieldDefaultValue" type="xs:string" minOccurs="0" />
+                <xs:element name="IsRestrictedViewCondition" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsRestrictedViewSubItem" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RestrictedViewCondition" type="xs:string" minOccurs="0" />
+                <xs:element name="IsCustomAdd" type="xs:boolean" minOccurs="0" />
+                <xs:element name="CustomAddRelatedField" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomAddTableName" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomAddValueField" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomAddTextValue" type="xs:string" minOccurs="0" />
+                <xs:element name="IsAddDefaultValue" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AddDefaultValue" type="xs:string" minOccurs="0" />
+                <xs:element name="IsFixed" type="xs:boolean" minOccurs="0" />
+                <xs:element name="FixedValue" type="xs:string" minOccurs="0" />
+                <xs:element name="IsUpdateFixed" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UpdateFixedValue" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlTypeName" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldType" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlTypePrefix" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlTypeValueSuffix" type="xs:string" minOccurs="0" />
+                <xs:element name="ControlID" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateType" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateFaildMessage" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateMethod" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateMethodByViewState" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateParameterOne" type="xs:string" minOccurs="0" />
+                <xs:element name="DataValidateParameterTwo" type="xs:string" minOccurs="0" />
+                <xs:element name="IsAllOneRow" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TitleWidth" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleHeight" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentWidth" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentHeight" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleStyle" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentStyle" type="xs:string" minOccurs="0" />
+                <xs:element name="IsHideTitle" type="xs:boolean" minOccurs="0" />
+                <xs:element name="TitleRow" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleColumn" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleRowSpan" type="xs:string" minOccurs="0" />
+                <xs:element name="TitleColumnSpan" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentRow" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentColumn" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentRowSpan" type="xs:string" minOccurs="0" />
+                <xs:element name="ContentColumnSpan" type="xs:string" minOccurs="0" />
+                <xs:element name="CellColSpan" type="xs:string" minOccurs="0" />
+                <xs:element name="MaxRowCount" type="xs:string" minOccurs="0" />
+                <xs:element name="TextAlign" type="xs:string" minOccurs="0" />
+                <xs:element name="IsNoBorderTop" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsNoBorderLeft" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsNoBorderBottom" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsNoBorderRight" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DefaultValue" type="xs:string" minOccurs="0" />
+                <xs:element name="SPDefaultValue" type="xs:string" minOccurs="0" />
+                <xs:element name="SPSelectDataType" type="xs:string" minOccurs="0" />
+                <xs:element name="SPUpdateDataType" type="xs:string" minOccurs="0" />
+                <xs:element name="SPDataSize" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldReadme" type="xs:string" minOccurs="0" />
+                <xs:element name="IsUseSuggest" type="xs:boolean" minOccurs="0" />
+                <xs:element name="UseSuggestFilePath" type="xs:string" minOccurs="0" />
+                <xs:element name="IsUseSuggestSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsAJAXExist" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsCoupled" type="xs:boolean" minOccurs="0" />
+                <xs:element name="CoupledDataSource" type="xs:string" minOccurs="0" />
+                <xs:element name="CoupledDataSourceCondtion" type="xs:string" minOccurs="0" />
+                <xs:element name="IsCoupledNext" type="xs:boolean" minOccurs="0" />
+                <xs:element name="CoupledDataSourcePrevious" type="xs:string" minOccurs="0" />
+                <xs:element name="IsComboTree" type="xs:boolean" minOccurs="0" />
+                <xs:element name="OnlyDisplayUsedNode" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsComboTreeNoParent" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ComboTreeLevel" type="xs:string" minOccurs="0" />
+                <xs:element name="IsComboTreeLink" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsComboTreeParentLink" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ComboTreeParent" type="xs:string" minOccurs="0" />
+                <xs:element name="ComboTreeParentField" type="xs:string" minOccurs="0" />
+                <xs:element name="IsComboTreeRelatedParent" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsComboTreeRelatedParentIndependent" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ComboTreeRelatedParent" type="xs:string" minOccurs="0" />
+                <xs:element name="ComboTreeRelatedParentTable" type="xs:string" minOccurs="0" />
+                <xs:element name="ComboTreeRelatedParentDisplayField" type="xs:string" minOccurs="0" />
+                <xs:element name="ComboTreeRelatedParentValueField" type="xs:string" minOccurs="0" />
+                <xs:element name="ComboTreeRelatedParentWithField" type="xs:string" minOccurs="0" />
+                <xs:element name="IsComboTreeRelatedParentLink" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsDispose" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsDisposeOtherTable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DisposeMode" type="xs:string" minOccurs="0" />
+                <xs:element name="DisposeSetValue" type="xs:string" minOccurs="0" />
+                <xs:element name="IsDisposeReverse" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IsFromDoc" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DocTable" type="xs:string" minOccurs="0" />
+                <xs:element name="DocRow" type="xs:string" minOccurs="0" />
+                <xs:element name="DocCell" type="xs:string" minOccurs="0" />
+                <xs:element name="IsFromDataSet" type="xs:boolean" minOccurs="0" />
+                <xs:element name="DataSetMapColumnName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CustomOperateConfig">
+            <xs:complexType>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CustomConditionConfig">
+            <xs:complexType>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CustomPermissionConfig">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CustomPermissionTemplate" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomPermissionType" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomPermissionID" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomPermissionName" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomPermissionRemark" type="xs:string" minOccurs="0" />
+                <xs:element name="HideFields" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CustomRelatedTableConfig">
+            <xs:complexType>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CustomDisplayFieldConfig">
+            <xs:complexType>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CustomPermissionFieldConfig">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CustomPermissionTemplate" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomPermissionType" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomPermissionID" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomPermissionName" type="xs:string" minOccurs="0" />
+                <xs:element name="CustomPermissionRemark" type="xs:string" minOccurs="0" />
+                <xs:element name="FieldName" type="xs:string" minOccurs="0" />
+                <xs:element name="Hidden" type="xs:boolean" minOccurs="0" />
+                <xs:element name="View" type="xs:boolean" minOccurs="0" />
+                <xs:element name="NoSearch" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Condition" type="xs:boolean" minOccurs="0" />
+                <xs:element name="ConditionValue" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <RecordInfo>
+    <OrderID>1</OrderID>
+    <FieldName>ObjectID</FieldName>
+    <DBType>UniqueIdentifier</DBType>
+    <DataSize>16</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsAdd>false</IsAdd>
+    <IsModify>false</IsModify>
+    <IsNonModifiable>false</IsNonModifiable>
+    <IsList>false</IsList>
+    <IsDefaultList>false</IsDefaultList>
+    <IsListSort>false</IsListSort>
+    <IsAppList>false</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>false</IsSearch>
+    <IsAdvanceSearch>false</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>false</IsApproximateSearch>
+    <IsRangeSearch>false</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>false</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>null</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>单行文本框</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>false</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>TextBox</ControlTypeName>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>asp</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>ObjectID格式验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0012</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateUniqueIdentifierFormat</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateUniqueIdentifierFormat(ViewState["ObjectID"].ToString())</DataValidateMethodByViewState>
+    <DataValidateParameterOne>null</DataValidateParameterOne>
+    <DataValidateParameterTwo>null</DataValidateParameterTwo>
+    <IsAllOneRow>false</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TextAlign>Center</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue>(newid())</DefaultValue>
+    <SPDefaultValue>newid()</SPDefaultValue>
+    <SPSelectDataType>nvarchar(50)</SPSelectDataType>
+    <SPUpdateDataType>nvarchar(50)</SPUpdateDataType>
+    <SPDataSize />
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>2</OrderID>
+    <FieldName>KCYYBH</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">课程预约编号</FieldRemark>
+    <DBType>NVarChar</DBType>
+    <DataSize>20</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsAdd>false</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>true</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>true</IsDefaultList>
+    <IsListSort>true</IsListSort>
+    <IsAppList>false</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>false</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>false</IsApproximateSearch>
+    <IsRangeSearch>false</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>null</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>单行文本框</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>false</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>TextBox</ControlTypeName>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>asp</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateStringLengthRange(ViewState["KCYYBH"].ToString(), 1, 10)</DataValidateMethodByViewState>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>10</DataValidateParameterTwo>
+    <IsAllOneRow>false</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>1</TitleRow>
+    <TitleColumn>1</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>1</ContentRow>
+    <ContentColumn>2</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>4</ContentColumnSpan>
+    <TextAlign>Center</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>NVarChar(10)</SPSelectDataType>
+    <SPUpdateDataType>NVarChar(10)</SPUpdateDataType>
+    <SPDataSize>(10)</SPDataSize>
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>3</OrderID>
+    <FieldName>KCBBH</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">课程表编号</FieldRemark>
+    <DBType>NVarChar</DBType>
+    <DataSize>20</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>true</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsAdd>true</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>true</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>true</IsDefaultList>
+    <IsListSort>true</IsListSort>
+    <IsAppList>true</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>true</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>false</IsApproximateSearch>
+    <IsRangeSearch>false</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>null</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>下拉列表框</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>true</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <DataBindTableOwnerName>dbo</DataBindTableOwnerName>
+    <DataBindTableName>T_BM_KCBXX</DataBindTableName>
+    <DataBindTextField>KCBH</DataBindTextField>
+    <DataBindValueField>KCBBH</DataBindValueField>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <TreeParentNode>null</TreeParentNode>
+    <TreeParentNodeValue>null</TreeParentNodeValue>
+    <DataBindCondition>null</DataBindCondition>
+    <DataBindConditionValue>null</DataBindConditionValue>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>DropDownList</ControlTypeName>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>asp</ControlTypePrefix>
+    <ControlTypeValueSuffix>SelectedValue</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateStringLengthRange(ViewState["KCBBH"].ToString(), 1, 10)</DataValidateMethodByViewState>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>10</DataValidateParameterTwo>
+    <IsAllOneRow>false</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>1</TitleRow>
+    <TitleColumn>3</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>1</ContentRow>
+    <ContentColumn>4</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>4</ContentColumnSpan>
+    <TextAlign>Center</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>NVarChar(10)</SPSelectDataType>
+    <SPUpdateDataType>NVarChar(10)</SPUpdateDataType>
+    <SPDataSize>(10)</SPDataSize>
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>4</OrderID>
+    <FieldName>HYBH</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">会员编号</FieldRemark>
+    <DBType>NVarChar</DBType>
+    <DataSize>20</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>true</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsAdd>true</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>false</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>true</IsDefaultList>
+    <IsListSort>true</IsListSort>
+    <IsAppList>true</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>true</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>false</IsApproximateSearch>
+    <IsRangeSearch>false</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>null</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>下拉列表框</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>true</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <DataBindTableOwnerName>dbo</DataBindTableOwnerName>
+    <DataBindTableName>T_BM_HYXX</DataBindTableName>
+    <DataBindTextField>HYXM</DataBindTextField>
+    <DataBindValueField>HYBH</DataBindValueField>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <TreeParentNode>null</TreeParentNode>
+    <TreeParentNodeValue>null</TreeParentNodeValue>
+    <DataBindCondition>null</DataBindCondition>
+    <DataBindConditionValue>null</DataBindConditionValue>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>DropDownList</ControlTypeName>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>asp</ControlTypePrefix>
+    <ControlTypeValueSuffix>SelectedValue</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateStringLengthRange(ViewState["HYBH"].ToString(), 1, 10)</DataValidateMethodByViewState>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>10</DataValidateParameterTwo>
+    <IsAllOneRow>false</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>2</TitleRow>
+    <TitleColumn>1</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>2</ContentRow>
+    <ContentColumn>2</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>4</ContentColumnSpan>
+    <TextAlign>Center</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>NVarChar(10)</SPSelectDataType>
+    <SPUpdateDataType>NVarChar(10)</SPUpdateDataType>
+    <SPDataSize>(10)</SPDataSize>
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>5</OrderID>
+    <FieldName>YYSJ</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">预约时间</FieldRemark>
+    <DBType>DateTime</DBType>
+    <DataSize>8</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>false</IsNull>
+    <IsAdd>true</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>false</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>true</IsDefaultList>
+    <IsListSort>true</IsListSort>
+    <IsAppList>true</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>true</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>false</IsApproximateSearch>
+    <IsRangeSearch>true</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>"yyyy-MM-dd"</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>时间日期输入</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>false</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>TextBox</ControlTypeName>
+    <FieldType>DateTime</FieldType>
+    <ControlTypePrefix>asp</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>时间格式验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0005</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateDateFormat</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateDateFormat(ViewState["YYSJ"].ToString())</DataValidateMethodByViewState>
+    <DataValidateParameterOne>null</DataValidateParameterOne>
+    <DataValidateParameterTwo>null</DataValidateParameterTwo>
+    <IsAllOneRow>false</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>2</TitleRow>
+    <TitleColumn>3</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>2</ContentRow>
+    <ContentColumn>4</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>4</ContentColumnSpan>
+    <TextAlign>Center</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>DateTime</SPSelectDataType>
+    <SPUpdateDataType>DateTime</SPUpdateDataType>
+    <SPDataSize />
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>6</OrderID>
+    <FieldName>YYBZ</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">预约备注</FieldRemark>
+    <DBType>NVarChar</DBType>
+    <DataSize>8000</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsAdd>true</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>false</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>true</IsDefaultList>
+    <IsListSort>false</IsListSort>
+    <IsAppList>false</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>true</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>true</IsApproximateSearch>
+    <IsRangeSearch>false</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>null</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>多行文本框</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>false</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>FreeTextBox</ControlTypeName>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>FTB</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateStringLengthRange(ViewState["YYBZ"].ToString(), 1, 4000)</DataValidateMethodByViewState>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>4000</DataValidateParameterTwo>
+    <IsAllOneRow>true</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>3</TitleRow>
+    <TitleColumn>1</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>3</ContentRow>
+    <ContentColumn>2</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>12</ContentColumnSpan>
+    <TextAlign>Left</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>NVarChar(4000)</SPSelectDataType>
+    <SPUpdateDataType>NVarChar(4000)</SPUpdateDataType>
+    <SPDataSize>(4000)</SPDataSize>
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>7</OrderID>
+    <FieldName>SKZT</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">上课状态</FieldRemark>
+    <DBType>NVarChar</DBType>
+    <DataSize>20</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsAdd>true</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>false</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>true</IsDefaultList>
+    <IsListSort>true</IsListSort>
+    <IsAppList>true</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>true</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>false</IsApproximateSearch>
+    <IsRangeSearch>false</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>null</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>单行文本框</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>false</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>TextBox</ControlTypeName>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>asp</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateStringLengthRange(ViewState["SKZT"].ToString(), 1, 10)</DataValidateMethodByViewState>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>10</DataValidateParameterTwo>
+    <IsAllOneRow>false</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>4</TitleRow>
+    <TitleColumn>1</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>4</ContentRow>
+    <ContentColumn>2</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>4</ContentColumnSpan>
+    <TextAlign>Center</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>NVarChar(10)</SPSelectDataType>
+    <SPUpdateDataType>NVarChar(10)</SPUpdateDataType>
+    <SPDataSize>(10)</SPDataSize>
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>8</OrderID>
+    <FieldName>XHKS</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">消耗课时</FieldRemark>
+    <DBType>Int</DBType>
+    <DataSize>4</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsAdd>true</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>false</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>true</IsDefaultList>
+    <IsListSort>false</IsListSort>
+    <IsAppList>false</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>false</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>false</IsApproximateSearch>
+    <IsRangeSearch>false</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>null</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>单行文本框</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>false</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>TextBox</ControlTypeName>
+    <FieldType>Int32</FieldType>
+    <ControlTypePrefix>asp</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>数字格式验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0003</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateNumberFormat</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateNumberFormat(ViewState["XHKS"].ToString())</DataValidateMethodByViewState>
+    <DataValidateParameterOne>null</DataValidateParameterOne>
+    <DataValidateParameterTwo>null</DataValidateParameterTwo>
+    <IsAllOneRow>false</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>4</TitleRow>
+    <TitleColumn>3</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>4</ContentRow>
+    <ContentColumn>4</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>4</ContentColumnSpan>
+    <TextAlign>Center</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>Int</SPSelectDataType>
+    <SPUpdateDataType>Int</SPUpdateDataType>
+    <SPDataSize />
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>9</OrderID>
+    <FieldName>KTZP</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">课堂照片</FieldRemark>
+    <DBType>NVarChar</DBType>
+    <DataSize>8000</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsAdd>true</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>false</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>false</IsDefaultList>
+    <IsListSort>false</IsListSort>
+    <IsAppList>false</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>false</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>false</IsApproximateSearch>
+    <IsRangeSearch>false</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>null</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>图片上传</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>false</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>FilesList</ControlTypeName>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>control</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateStringLengthRange(ViewState["KTZP"].ToString(), 1, 4000)</DataValidateMethodByViewState>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>4000</DataValidateParameterTwo>
+    <IsAllOneRow>true</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>5</TitleRow>
+    <TitleColumn>1</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>5</ContentRow>
+    <ContentColumn>2</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>12</ContentColumnSpan>
+    <TextAlign>Center</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>NVarChar(4000)</SPSelectDataType>
+    <SPUpdateDataType>NVarChar(4000)</SPUpdateDataType>
+    <SPDataSize>(4000)</SPDataSize>
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>10</OrderID>
+    <FieldName>JSPJ</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">教师评价</FieldRemark>
+    <DBType>NVarChar</DBType>
+    <DataSize>8000</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsAdd>true</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>false</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>true</IsDefaultList>
+    <IsListSort>false</IsListSort>
+    <IsAppList>false</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>false</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>true</IsApproximateSearch>
+    <IsRangeSearch>false</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>null</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>多行文本框</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>false</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>FreeTextBox</ControlTypeName>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>FTB</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateStringLengthRange(ViewState["JSPJ"].ToString(), 1, 4000)</DataValidateMethodByViewState>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>4000</DataValidateParameterTwo>
+    <IsAllOneRow>true</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>6</TitleRow>
+    <TitleColumn>1</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>6</ContentRow>
+    <ContentColumn>2</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>12</ContentColumnSpan>
+    <TextAlign>Left</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>NVarChar(4000)</SPSelectDataType>
+    <SPUpdateDataType>NVarChar(4000)</SPUpdateDataType>
+    <SPDataSize>(4000)</SPDataSize>
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>11</OrderID>
+    <FieldName>PJR</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">评价人</FieldRemark>
+    <DBType>NVarChar</DBType>
+    <DataSize>20</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>true</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsAdd>true</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>false</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>true</IsDefaultList>
+    <IsListSort>false</IsListSort>
+    <IsAppList>false</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>true</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>false</IsApproximateSearch>
+    <IsRangeSearch>false</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>null</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>单行文本框</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>true</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <DataBindTableOwnerName>dbo</DataBindTableOwnerName>
+    <DataBindTableName>T_PM_UserInfo</DataBindTableName>
+    <DataBindTextField>UserNickName</DataBindTextField>
+    <DataBindValueField>UserID</DataBindValueField>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <TreeParentNode>null</TreeParentNode>
+    <TreeParentNodeValue>null</TreeParentNodeValue>
+    <DataBindCondition>null</DataBindCondition>
+    <DataBindConditionValue>null</DataBindConditionValue>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>TextBox</ControlTypeName>
+    <FieldType>String</FieldType>
+    <ControlTypePrefix>asp</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>字符串长度范围验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0004</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateStringLengthRange</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateStringLengthRange(ViewState["PJR"].ToString(), 1, 10)</DataValidateMethodByViewState>
+    <DataValidateParameterOne>1</DataValidateParameterOne>
+    <DataValidateParameterTwo>10</DataValidateParameterTwo>
+    <IsAllOneRow>false</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>7</TitleRow>
+    <TitleColumn>1</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>7</ContentRow>
+    <ContentColumn>2</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>4</ContentColumnSpan>
+    <TextAlign>Center</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>NVarChar(10)</SPSelectDataType>
+    <SPUpdateDataType>NVarChar(10)</SPUpdateDataType>
+    <SPDataSize>(10)</SPDataSize>
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <RecordInfo>
+    <OrderID>12</OrderID>
+    <FieldName>PJSJ</FieldName>
+    <FieldRemark xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">评价时间</FieldRemark>
+    <DBType>DateTime</DBType>
+    <DataSize>8</DataSize>
+    <IsUse>true</IsUse>
+    <IsString>false</IsString>
+    <IsPrimaryKey>false</IsPrimaryKey>
+    <IsNull>true</IsNull>
+    <IsAdd>true</IsAdd>
+    <IsModify>true</IsModify>
+    <IsNonModifiable>false</IsNonModifiable>
+    <IsList>true</IsList>
+    <IsDefaultList>true</IsDefaultList>
+    <IsListSort>true</IsListSort>
+    <IsAppList>false</IsAppList>
+    <AppListColumn>4</AppListColumn>
+    <IsAppFilter>false</IsAppFilter>
+    <IsAppDetail>false</IsAppDetail>
+    <AppDetailCaptionColumn>3</AppDetailCaptionColumn>
+    <AppDetailContentColumn>9</AppDetailContentColumn>
+    <IsSearch>true</IsSearch>
+    <IsAdvanceSearch>true</IsAdvanceSearch>
+    <PrefixMatch>false</PrefixMatch>
+    <IsApproximateSearch>false</IsApproximateSearch>
+    <IsRangeSearch>true</IsRangeSearch>
+    <IsMoreItemSearch>false</IsMoreItemSearch>
+    <IsSubItemSearch>false</IsSubItemSearch>
+    <IsBatchSearch>false</IsBatchSearch>
+    <IsShowDetail>true</IsShowDetail>
+    <IsPDFShow>false</IsPDFShow>
+    <DisplayFormatString>"yyyy-MM-dd"</DisplayFormatString>
+    <IsPDFNextSeparateLine>false</IsPDFNextSeparateLine>
+    <IsStatisticalData>false</IsStatisticalData>
+    <IsStatisticalCondition>false</IsStatisticalCondition>
+    <IsSum>false</IsSum>
+    <IsRelatedOperateParam>false</IsRelatedOperateParam>
+    <IsSuggestItem>false</IsSuggestItem>
+    <ControlType>时间日期输入</ControlType>
+    <IsUseTab>false</IsUseTab>
+    <IsDataBind>false</IsDataBind>
+    <IsMoreItemDisplay>false</IsMoreItemDisplay>
+    <IsDataDict>false</IsDataDict>
+    <IsTreeStyle>false</IsTreeStyle>
+    <MutilInsertField>false</MutilInsertField>
+    <MutilInsertCondition>false</MutilInsertCondition>
+    <IsRestrictedViewCondition>false</IsRestrictedViewCondition>
+    <IsRestrictedViewSubItem>false</IsRestrictedViewSubItem>
+    <IsCustomAdd>false</IsCustomAdd>
+    <IsAddDefaultValue>false</IsAddDefaultValue>
+    <IsFixed>false</IsFixed>
+    <IsUpdateFixed>false</IsUpdateFixed>
+    <ControlTypeName>TextBox</ControlTypeName>
+    <FieldType>DateTime</FieldType>
+    <ControlTypePrefix>asp</ControlTypePrefix>
+    <ControlTypeValueSuffix>Text</ControlTypeValueSuffix>
+    <DataValidateType>时间格式验证</DataValidateType>
+    <DataValidateFaildMessage>HINT_MSGID_0005</DataValidateFaildMessage>
+    <DataValidateMethod>ValidateDateFormat</DataValidateMethod>
+    <DataValidateMethodByViewState>ValidateDateFormat(ViewState["PJSJ"].ToString())</DataValidateMethodByViewState>
+    <DataValidateParameterOne>null</DataValidateParameterOne>
+    <DataValidateParameterTwo>null</DataValidateParameterTwo>
+    <IsAllOneRow>false</IsAllOneRow>
+    <IsHideTitle>false</IsHideTitle>
+    <TitleRow>7</TitleRow>
+    <TitleColumn>3</TitleColumn>
+    <TitleRowSpan>1</TitleRowSpan>
+    <TitleColumnSpan>4</TitleColumnSpan>
+    <ContentRow>7</ContentRow>
+    <ContentColumn>4</ContentColumn>
+    <ContentRowSpan>1</ContentRowSpan>
+    <ContentColumnSpan>4</ContentColumnSpan>
+    <TextAlign>Center</TextAlign>
+    <IsNoBorderTop>false</IsNoBorderTop>
+    <IsNoBorderLeft>false</IsNoBorderLeft>
+    <IsNoBorderBottom>false</IsNoBorderBottom>
+    <IsNoBorderRight>false</IsNoBorderRight>
+    <DefaultValue />
+    <SPDefaultValue>NULL</SPDefaultValue>
+    <SPSelectDataType>DateTime</SPSelectDataType>
+    <SPUpdateDataType>DateTime</SPUpdateDataType>
+    <SPDataSize />
+    <IsUseSuggest>false</IsUseSuggest>
+    <IsUseSuggestSearch>false</IsUseSuggestSearch>
+    <IsAJAXExist>false</IsAJAXExist>
+    <IsCoupled>false</IsCoupled>
+    <IsCoupledNext>false</IsCoupledNext>
+    <IsComboTree>false</IsComboTree>
+    <OnlyDisplayUsedNode>false</OnlyDisplayUsedNode>
+    <IsComboTreeNoParent>false</IsComboTreeNoParent>
+    <IsComboTreeLink>false</IsComboTreeLink>
+    <IsComboTreeParentLink>false</IsComboTreeParentLink>
+    <IsComboTreeRelatedParent>false</IsComboTreeRelatedParent>
+    <IsComboTreeRelatedParentIndependent>false</IsComboTreeRelatedParentIndependent>
+    <IsComboTreeRelatedParentLink>false</IsComboTreeRelatedParentLink>
+    <IsDispose>false</IsDispose>
+    <IsDisposeOtherTable>false</IsDisposeOtherTable>
+    <IsDisposeReverse>false</IsDisposeReverse>
+    <IsFromDoc>false</IsFromDoc>
+    <IsFromDataSet>false</IsFromDataSet>
+  </RecordInfo>
+  <CustomPermissionConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+  </CustomPermissionConfig>
+  <CustomPermissionConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+  </CustomPermissionConfig>
+  <CustomPermissionConfig />
+  <CustomPermissionConfig />
+  <CustomPermissionConfig />
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>ObjectID</FieldName>
+    <Hidden>false</Hidden>
+    <View>false</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>KCYYBH</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>true</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>KCBBH</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>true</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>HYBH</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>true</NoSearch>
+    <Condition>true</Condition>
+    <ConditionValue>CurrentUserInfo.UserID</ConditionValue>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>YYSJ</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>YYBZ</FieldName>
+    <Hidden>false</Hidden>
+    <View>false</View>
+    <NoSearch>true</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>SKZT</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>XHKS</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>true</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>KTZP</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>true</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>JSPJ</FieldName>
+    <Hidden>false</Hidden>
+    <View>false</View>
+    <NoSearch>true</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>PJR</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>true</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>51</CustomPermissionID>
+    <CustomPermissionName>WDYY</CustomPermissionName>
+    <CustomPermissionRemark>我的预约</CustomPermissionRemark>
+    <FieldName>PJSJ</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>true</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>ObjectID</FieldName>
+    <Hidden>false</Hidden>
+    <View>false</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>KCYYBH</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>KCBBH</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>HYBH</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>YYSJ</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>YYBZ</FieldName>
+    <Hidden>false</Hidden>
+    <View>false</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>SKZT</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>XHKS</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>KTZP</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>JSPJ</FieldName>
+    <Hidden>false</Hidden>
+    <View>false</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>PJR</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>true</Condition>
+    <ConditionValue>CurrentUserInfo.UserID</ConditionValue>
+  </CustomPermissionFieldConfig>
+  <CustomPermissionFieldConfig>
+    <CustomPermissionTemplate>WebUISearch.aspx.xsl</CustomPermissionTemplate>
+    <CustomPermissionType>SearchPage</CustomPermissionType>
+    <CustomPermissionID>52</CustomPermissionID>
+    <CustomPermissionName>WDPY</CustomPermissionName>
+    <CustomPermissionRemark>我的评价</CustomPermissionRemark>
+    <FieldName>PJSJ</FieldName>
+    <Hidden>false</Hidden>
+    <View>true</View>
+    <NoSearch>false</NoSearch>
+    <Condition>false</Condition>
+  </CustomPermissionFieldConfig>
+  <DataBaseName>DB_LearningSystem</DataBaseName>
+  <TableName>T_BM_KCYYXX</TableName>
+  <TableOnwer>dbo</TableOnwer>
+  <NameSpace>
+  </NameSpace>
+  <TableRemark>课程预约信息</TableRemark>
+  <PurviewPrefix>KCYY</PurviewPrefix>
+  <TemplateFilePath>Template</TemplateFilePath>
+  <ProjectPath>..\..\..</ProjectPath>
+  <CodeFilePath>CodeGenerated</CodeFilePath>
+  <ConnectionString>Data Source=127.0.0.1;Initial Catalog=DB_LearningSystem;User ID=sa;Password=95828wjl(!***;User Instance=False</ConnectionString>
+  <AutoGenerateField>KCYYBH</AutoGenerateField>
+  <AutoGenerateNumberLength>8</AutoGenerateNumberLength>
+  <AutoGeneratePrefix>"YY"</AutoGeneratePrefix>
+  <AllowAutoGenerateID>true</AllowAutoGenerateID>
+  <AutoGenerateDay>false</AutoGenerateDay>
+  <AutoGenerateHour>false</AutoGenerateHour>
+  <AutoGenerateMinute>false</AutoGenerateMinute>
+  <AutoGenerateMonth>false</AutoGenerateMonth>
+  <AutoGenerateMSecond>false</AutoGenerateMSecond>
+  <AutoGenerateSecond>false</AutoGenerateSecond>
+  <AutoGenerateYear>false</AutoGenerateYear>
+  <AutoGenerateOrder>true</AutoGenerateOrder>
+  <AutoGenerateIncludeDateTime>false</AutoGenerateIncludeDateTime>
+  <Sort>false</Sort>
+  <SortField>KCYYBH</SortField>
+  <TitleField>KCBBH</TitleField>
+  <NoTableBorder>false</NoTableBorder>
+  <ExistPDFPageHeader>false</ExistPDFPageHeader>
+  <ExistPDFPageFooter>false</ExistPDFPageFooter>
+  <ExistPDFTableTitle>false</ExistPDFTableTitle>
+  <PDFPageHeader>
+  </PDFPageHeader>
+  <PDFPageFooter>
+  </PDFPageFooter>
+  <PDFTableTitle>
+  </PDFTableTitle>
+  <IsPDFCustomTitle>false</IsPDFCustomTitle>
+  <PDFCustomTitleReadField>
+  </PDFCustomTitleReadField>
+  <PDFCustomTitle>
+  </PDFCustomTitle>
+  <ImportFromDoc>false</ImportFromDoc>
+  <ImportFromDataSet>false</ImportFromDataSet>
+  <ImportDataSetStartLineNum>6</ImportDataSetStartLineNum>
+  <ExportToDocumentTemplate>false</ExportToDocumentTemplate>
+  <ExportToPDF>false</ExportToPDF>
+  <CopyItem>false</CopyItem>
+  <WebDetailPage>true</WebDetailPage>
+  <UseFilterReport>false</UseFilterReport>
+  <MutilInsert>false</MutilInsert>
+  <GetValue>
+    <GetValueTextField>
+    </GetValueTextField>
+    <GetValueValueField>
+    </GetValueValueField>
+    <GetValue>false</GetValue>
+    <GetValueByKey>false</GetValueByKey>
+  </GetValue>
+  <ConnectionType>Table</ConnectionType>
+</NewDataSet>

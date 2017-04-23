@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataModelApplication.exe" size="360448">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataModelApplication.exe" size="361472">
       <assemblyIdentity name="DataModelApplication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>l+qRhsRIfIyv2NS1XFaMtl+V4WM=</dsig:DigestValue>
+        <dsig:DigestValue>sDsDTfciQRGwECH/b0zqY+2Xdrg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -200,13 +200,13 @@
       <dsig:DigestValue>X06wNdxAdD45LX2uzrbTmOXFe4U=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Template\CopyToProject.bat.xsl" size="6711">
+  <file name="Template\CopyToProject.bat.xsl" size="6842">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>zIIwa/2rLjr/L60fqCoSmor7IGU=</dsig:DigestValue>
+      <dsig:DigestValue>dRAsCNl9/RHEYpsQ+E1j0uA3xAE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Template\Script.table.sql.xsl" size="3284">
@@ -254,13 +254,13 @@
       <dsig:DigestValue>v25wCk/sb2esNCwbrdR4HmcDXG8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Template\WebUIAdd.aspx.cs.xsl" size="60966">
+  <file name="Template\WebUIAdd.aspx.cs.xsl" size="60954">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>rced3BzPSnjbTg/RPvNe16lOmRU=</dsig:DigestValue>
+      <dsig:DigestValue>g6dNCdZ816wf0tN+REQs4rpRKig=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Template\WebUIAdd.aspx.xsl" size="80202">
@@ -299,22 +299,22 @@
       <dsig:DigestValue>aHlCJFxztNdNVTNFW/Beio+E3Tk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Template\WebUIDetail.aspx.cs.xsl" size="64156">
+  <file name="Template\WebUIDetail.aspx.cs.xsl" size="64621">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>tMS1T5W+DOVeAb8i3n9zLC76h90=</dsig:DigestValue>
+      <dsig:DigestValue>j99LzN+O0PrKU3szM6KfYo0JQUg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Template\WebUIDetail.aspx.xsl" size="113885">
+  <file name="Template\WebUIDetail.aspx.xsl" size="114174">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>kZ8BwgajdSqlLZh+aETlh1i0Fz4=</dsig:DigestValue>
+      <dsig:DigestValue>04B2qJknoMeV2gf7MmFoG8ELrUU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Template\WebUIDetailForApp.aspx.cs.xsl" size="3342">

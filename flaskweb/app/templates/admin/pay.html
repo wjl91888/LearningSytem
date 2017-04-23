@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block page_content %}
+    <div class="col-md-6">
+        {{ wtf.quick_form(form) }}
+    </div>
+    <div class="col-md-6">
+        <h2>Your Transactions</h2>
+        <table class="table">
+
+            <thead>
+            <tr>
+                <th>transaction id</th>
+                <th>transaction date</th>
+                <th>usage</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for foo in list %}
+                <tr>
+                    <td>{{ foo.id }}</td>
+                    <th>{{ (foo.date|string)[5:10] }}</th>
+                    <th>{{ foo.usage }}</th>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

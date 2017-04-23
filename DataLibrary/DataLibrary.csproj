@@ -90,6 +90,56 @@
     <Compile Include="Base\UserGroupLibrary.cs" />
     <Compile Include="Base\UserGroupPurviewLibrary.cs" />
     <Compile Include="Base\UserPurviewLibrary.cs" />
+    <Compile Include="T_BM_BMXX\T_BM_BMXXApplicationData.cs" />
+    <Compile Include="T_BM_BMXX\T_BM_BMXXApplicationLogic.cs" />
+    <Compile Include="T_BM_BMXX\T_BM_BMXXApplicationLogicBase.cs" />
+    <Compile Include="T_BM_BMXX\T_BM_BMXXBusinessEntity.cs" />
+    <Compile Include="T_BM_BMXX\T_BM_BMXXBusinessEntityBase.cs" />
+    <Compile Include="T_BM_BMXX\T_BM_BMXXWebUI.cs" />
+    <Compile Include="T_BM_BMXX\T_BM_BMXXWebUIBase.cs" />
+    <Compile Include="T_BM_HYXX\T_BM_HYXXApplicationData.cs" />
+    <Compile Include="T_BM_HYXX\T_BM_HYXXApplicationLogic.cs" />
+    <Compile Include="T_BM_HYXX\T_BM_HYXXApplicationLogicBase.cs" />
+    <Compile Include="T_BM_HYXX\T_BM_HYXXBusinessEntity.cs" />
+    <Compile Include="T_BM_HYXX\T_BM_HYXXBusinessEntityBase.cs" />
+    <Compile Include="T_BM_HYXX\T_BM_HYXXWebUI.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T_BM_HYXX\T_BM_HYXXWebUIBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T_BM_KCBXX\T_BM_KCBXXApplicationData.cs" />
+    <Compile Include="T_BM_KCBXX\T_BM_KCBXXApplicationLogic.cs" />
+    <Compile Include="T_BM_KCBXX\T_BM_KCBXXApplicationLogicBase.cs" />
+    <Compile Include="T_BM_KCBXX\T_BM_KCBXXBusinessEntity.cs" />
+    <Compile Include="T_BM_KCBXX\T_BM_KCBXXBusinessEntityBase.cs" />
+    <Compile Include="T_BM_KCBXX\T_BM_KCBXXWebUI.cs" />
+    <Compile Include="T_BM_KCBXX\T_BM_KCBXXWebUIBase.cs" />
+    <Compile Include="T_BM_KCXLXX\T_BM_KCXLXXApplicationData.cs" />
+    <Compile Include="T_BM_KCXLXX\T_BM_KCXLXXApplicationLogic.cs" />
+    <Compile Include="T_BM_KCXLXX\T_BM_KCXLXXApplicationLogicBase.cs" />
+    <Compile Include="T_BM_KCXLXX\T_BM_KCXLXXBusinessEntity.cs" />
+    <Compile Include="T_BM_KCXLXX\T_BM_KCXLXXBusinessEntityBase.cs" />
+    <Compile Include="T_BM_KCXLXX\T_BM_KCXLXXWebUI.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T_BM_KCXLXX\T_BM_KCXLXXWebUIBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="T_BM_KCXX\T_BM_KCXXApplicationData.cs" />
+    <Compile Include="T_BM_KCXX\T_BM_KCXXApplicationLogic.cs" />
+    <Compile Include="T_BM_KCXX\T_BM_KCXXApplicationLogicBase.cs" />
+    <Compile Include="T_BM_KCXX\T_BM_KCXXBusinessEntity.cs" />
+    <Compile Include="T_BM_KCXX\T_BM_KCXXBusinessEntityBase.cs" />
+    <Compile Include="T_BM_KCXX\T_BM_KCXXWebUI.cs" />
+    <Compile Include="T_BM_KCXX\T_BM_KCXXWebUIBase.cs" />
+    <Compile Include="T_BM_KCYYXX\T_BM_KCYYXXApplicationData.cs" />
+    <Compile Include="T_BM_KCYYXX\T_BM_KCYYXXApplicationLogic.cs" />
+    <Compile Include="T_BM_KCYYXX\T_BM_KCYYXXApplicationLogicBase.cs" />
+    <Compile Include="T_BM_KCYYXX\T_BM_KCYYXXBusinessEntity.cs" />
+    <Compile Include="T_BM_KCYYXX\T_BM_KCYYXXBusinessEntityBase.cs" />
+    <Compile Include="T_BM_KCYYXX\T_BM_KCYYXXWebUI.cs" />
+    <Compile Include="T_BM_KCYYXX\T_BM_KCYYXXWebUIBase.cs" />
     <Compile Include="T_PM_PurviewInfo\T_PM_PurviewInfoApplicationData.cs" />
     <Compile Include="T_PM_PurviewInfo\T_PM_PurviewInfoApplicationLogic.cs" />
     <Compile Include="T_PM_PurviewInfo\T_PM_PurviewInfoApplicationLogicBase.cs" />

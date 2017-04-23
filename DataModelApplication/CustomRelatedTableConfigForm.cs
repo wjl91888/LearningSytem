@@ -228,6 +228,16 @@ namespace DataModelApplication
                         {
                             CustomDisplayFieldConfigForm.CustomDisplayFieldConfig = TempCustomDisplayFieldConfig.Tables[strTableWithField + "_" + strRelatedTableName + "DisplayField"].Copy();
                             CustomDisplayFieldConfigForm.CustomDisplayFieldConfig.TableName = strTableWithField + "_" + strRelatedTableName + "DisplayField";
+                            foreach (DataRow row in CustomDisplayFieldConfigForm.CustomDisplayFieldConfig.Rows)
+                            {
+                                row["SerialNumber"] = strSerialNumber;
+                                row["RelatedInfoName"] = strRelatedInfoName;
+                                row["RelatedTableType"] = strRelatedTableType;
+                                row["RelatedTableOwner"] = strRelatedTableOwner;
+                                row["RelatedTableName"] = strRelatedTableName;
+                                row["TableWithField"] = strTableWithField;
+                                row["RelatedTableWithField"] = strRelatedTableWithField;
+                            }
                         }
                         // 打开自定义操作配置窗口
                         CustomDisplayFieldConfigForm.ShowDialog(this);

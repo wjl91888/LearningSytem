@@ -65,7 +65,10 @@ public partial class <xsl:value-of select="/NewDataSet/TableName"/>WebUIDetail :
         Header.DataBind();
         gvPrint.DataSource = appData.ResultSet;
         gvPrint.DataBind();
-
+        // ∞¥≈•≥ı ºªØ
+<xsl:for-each select="/NewDataSet/CustomOperateConfig">
+        btn<xsl:value-of select="RelatedPermission"/>.Attributes.Add("onclick", "window.location='<xsl:value-of select="CustomOperateFile"/>?a=a{0}<xsl:value-of select="CustomOperateParamOne"/>={1}{0}p=<xsl:value-of select="RelatedPermission"/>';".FormatInvariantCulture(AndChar, appData.ResultSet.Tables[0].Rows[0]["<xsl:value-of select="CustomOperateParamOne"/>"]));
+</xsl:for-each>
         if (IsPostBack != true)
         {
             foreach (DataRow drTemp in appData.ResultSet.Tables[0].Rows)
